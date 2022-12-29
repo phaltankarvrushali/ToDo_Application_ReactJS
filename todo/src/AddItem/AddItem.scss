@@ -1,0 +1,14 @@
+//Css for add item
+#add-todo {
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+
+    > form > div {
+        padding: 5px;
+        
+        input {
+            width: 100%;
+        }
+    }
+}

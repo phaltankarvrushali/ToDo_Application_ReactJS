@@ -1,0 +1,55 @@
+@import '_variables'; 
+
+body {
+    font-family: $font;
+    color: $matte-black;
+    background-color: $light-green;
+}
+
+.title {
+    text-align: center;
+    color: $matte-black;
+}
+
+.container {
+    padding: 30px;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    justify-content: center;
+    //border: 5px solid $button-color;
+    border-radius: 10px;
+}
+
+.button-container {
+    padding: 20px;
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    
+}
+
+button {
+    align-self: center;
+    width: 50%;
+    margin: 10px;
+    height: 40%;
+    padding: 10px;
+    background-color: $button-color;
+    color: $dark-blue ;
+    border: 0 none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: $background;
+    color: $medium-green;
+    cursor: pointer;
+}

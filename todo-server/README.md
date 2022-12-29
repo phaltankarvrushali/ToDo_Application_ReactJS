@@ -1,9 +1,12 @@
-This is a simple Todo React application.
+# assignment-9-vrushali-phaltankar
+assignment-9-vrushali-phaltankar created by GitHub Classroom
+
+This is a simple Todo React application using the REST APIs from Assignment 8.
 MongoDb is being used to store the data in backend.
 
 Instructions to run the project:
 
-1. Clone the repository https://github.com/phaltankarvrushali/ToDo_List_ReactJS.git
+1. Clone the repository git@github.com:neu-mis-info6150-fall-2022/assignment-9-vrushali-phaltankar.git
 2. Install backend node modules (Navigate to server/): `npm i`
 2. Install frontend node modules (Navigate to todo/): `npm i`
 3. Run the node server (Navigate to server/): `npm start`
@@ -11,7 +14,7 @@ Instructions to run the project:
 
 Instructions to use the project:
 
-1. Clone repo https://github.com/phaltankarvrushali/ToDo_List_ReactJS.git
+1. Clone repo https://github.com/neu-mis-info6150-fall-2022/assignment-9-vrushali-phaltankar.git
 2. Open terminal
 3. Run npm init
 4. Run node server.js to start the node
